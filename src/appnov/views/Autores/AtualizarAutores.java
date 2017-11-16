@@ -5,6 +5,8 @@
  */
 package appnov.views.Autores;
 
+import appnov.views.Editoras.AtualizarEditoras;
+
 /**
  *
  * @author Aluno

@@ -27,8 +27,132 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jMenuBar2 = new javax.swing.JMenuBar();
+        jmArquivo = new javax.swing.JMenu();
+        jmEditar = new javax.swing.JMenu();
+        jmEditoras = new javax.swing.JMenu();
+        jmiInserirEditora = new javax.swing.JMenuItem();
+        jmiExcluirEditora = new javax.swing.JMenuItem();
+        jmiAlterarEditora = new javax.swing.JMenuItem();
+        jmiAtualizarEditora = new javax.swing.JMenuItem();
+        jmiImprimirEditora = new javax.swing.JMenuItem();
+        jmAutores = new javax.swing.JMenu();
+        jmiInserir = new javax.swing.JMenuItem();
+        jmiExcluir = new javax.swing.JMenuItem();
+        jmiAlterar = new javax.swing.JMenuItem();
+        jmiAtualizar = new javax.swing.JMenuItem();
+        jmiImprimir = new javax.swing.JMenuItem();
+        jmTitulos = new javax.swing.JMenu();
+        jmiInserirTitulo = new javax.swing.JMenuItem();
+        jmiExcluirTitulo = new javax.swing.JMenuItem();
+        jmiAlterarTitulo = new javax.swing.JMenuItem();
+        jmiAtualizarTitulo = new javax.swing.JMenuItem();
+        jmiImprimirTitulo = new javax.swing.JMenuItem();
+        jmRelatorios = new javax.swing.JMenu();
+        jmiPorNome = new javax.swing.JMenuItem();
+        jmiPorTitulo = new javax.swing.JMenuItem();
+        jmiTodos = new javax.swing.JMenuItem();
+        jmSobre = new javax.swing.JMenu();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setResizable(false);
+
+        jmArquivo.setText("Arquivo");
+        jMenuBar2.add(jmArquivo);
+
+        jmEditar.setText("Editar");
+        jMenuBar2.add(jmEditar);
+
+        jmEditoras.setText("Editora");
+
+        jmiInserirEditora.setText("Inserir");
+        jmiInserirEditora.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiInserirEditoraActionPerformed(evt);
+            }
+        });
+        jmEditoras.add(jmiInserirEditora);
+
+        jmiExcluirEditora.setText("Excluir");
+        jmEditoras.add(jmiExcluirEditora);
+
+        jmiAlterarEditora.setText("Alterar");
+        jmEditoras.add(jmiAlterarEditora);
+
+        jmiAtualizarEditora.setText("Atualizar");
+        jmEditoras.add(jmiAtualizarEditora);
+
+        jmiImprimirEditora.setText("Imprimir");
+        jmEditoras.add(jmiImprimirEditora);
+
+        jMenuBar2.add(jmEditoras);
+
+        jmAutores.setText("Autores");
+
+        jmiInserir.setText("Inserir");
+        jmiInserir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiInserirActionPerformed(evt);
+            }
+        });
+        jmAutores.add(jmiInserir);
+
+        jmiExcluir.setText("Excluir");
+        jmAutores.add(jmiExcluir);
+
+        jmiAlterar.setText("Alterar");
+        jmAutores.add(jmiAlterar);
+
+        jmiAtualizar.setText("Atualizar");
+        jmAutores.add(jmiAtualizar);
+
+        jmiImprimir.setText("Imprimir");
+        jmAutores.add(jmiImprimir);
+
+        jMenuBar2.add(jmAutores);
+
+        jmTitulos.setText("Títulos");
+
+        jmiInserirTitulo.setText("Inserir");
+        jmiInserirTitulo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmiInserirTituloActionPerformed(evt);
+            }
+        });
+        jmTitulos.add(jmiInserirTitulo);
+
+        jmiExcluirTitulo.setText("Excluir");
+        jmTitulos.add(jmiExcluirTitulo);
+
+        jmiAlterarTitulo.setText("Alterar");
+        jmTitulos.add(jmiAlterarTitulo);
+
+        jmiAtualizarTitulo.setText("Atualizar");
+        jmTitulos.add(jmiAtualizarTitulo);
+
+        jmiImprimirTitulo.setText("Imprimir");
+        jmTitulos.add(jmiImprimirTitulo);
+
+        jMenuBar2.add(jmTitulos);
+
+        jmRelatorios.setText("Relatórios");
+
+        jmiPorNome.setText("Por nome");
+        jmRelatorios.add(jmiPorNome);
+
+        jmiPorTitulo.setText("Por título");
+        jmRelatorios.add(jmiPorTitulo);
+
+        jmiTodos.setText("Todos");
+        jmRelatorios.add(jmiTodos);
+
+        jMenuBar2.add(jmRelatorios);
+
+        jmSobre.setText("Sobre");
+        jMenuBar2.add(jmSobre);
+
+        setJMenuBar(jMenuBar2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -38,11 +162,24 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 379, Short.MAX_VALUE)
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jmiInserirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiInserirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jmiInserirActionPerformed
+
+    private void jmiInserirEditoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiInserirEditoraActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jmiInserirEditoraActionPerformed
+
+    private void jmiInserirTituloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiInserirTituloActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jmiInserirTituloActionPerformed
 
     /**
      * @param args the command line arguments
@@ -80,5 +217,31 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuBar jMenuBar2;
+    private javax.swing.JMenu jmArquivo;
+    private javax.swing.JMenu jmAutores;
+    private javax.swing.JMenu jmEditar;
+    private javax.swing.JMenu jmEditoras;
+    private javax.swing.JMenu jmRelatorios;
+    private javax.swing.JMenu jmSobre;
+    private javax.swing.JMenu jmTitulos;
+    private javax.swing.JMenuItem jmiAlterar;
+    private javax.swing.JMenuItem jmiAlterarEditora;
+    private javax.swing.JMenuItem jmiAlterarTitulo;
+    private javax.swing.JMenuItem jmiAtualizar;
+    private javax.swing.JMenuItem jmiAtualizarEditora;
+    private javax.swing.JMenuItem jmiAtualizarTitulo;
+    private javax.swing.JMenuItem jmiExcluir;
+    private javax.swing.JMenuItem jmiExcluirEditora;
+    private javax.swing.JMenuItem jmiExcluirTitulo;
+    private javax.swing.JMenuItem jmiImprimir;
+    private javax.swing.JMenuItem jmiImprimirEditora;
+    private javax.swing.JMenuItem jmiImprimirTitulo;
+    private javax.swing.JMenuItem jmiInserir;
+    private javax.swing.JMenuItem jmiInserirEditora;
+    private javax.swing.JMenuItem jmiInserirTitulo;
+    private javax.swing.JMenuItem jmiPorNome;
+    private javax.swing.JMenuItem jmiPorTitulo;
+    private javax.swing.JMenuItem jmiTodos;
     // End of variables declaration//GEN-END:variables
 }

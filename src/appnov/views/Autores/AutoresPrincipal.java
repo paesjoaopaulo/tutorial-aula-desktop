@@ -5,6 +5,8 @@
  */
 package appnov.views.Autores;
 
+import appnov.views.Editoras.EditorasPrincipal;
+
 /**
  *
  * @author Aluno
@@ -42,6 +44,7 @@ public class AutoresPrincipal extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**

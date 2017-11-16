@@ -12,7 +12,7 @@ package appnov.views.Titulos;
 public class TitulosPrincipal extends javax.swing.JFrame {
 
     /**
-     * Creates new form TitulosPrincipal
+     * Creates new form AutoresPrincipal
      */
     public TitulosPrincipal() {
         initComponents();
@@ -42,6 +42,7 @@ public class TitulosPrincipal extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -69,6 +70,13 @@ public class TitulosPrincipal extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TitulosPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */

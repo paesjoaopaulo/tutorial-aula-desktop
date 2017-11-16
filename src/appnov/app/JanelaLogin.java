@@ -131,6 +131,9 @@ public class JanelaLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.err.println(this.txtLogin.getText());
         System.err.println(this.txtSenha.getPassword());
+        JanelaPrincipal janelaPrincipal = new JanelaPrincipal();
+        this.setVisible(false);
+        janelaPrincipal.setVisible(true);
     }//GEN-LAST:event_btnLoginActionPerformed
 
     /**
