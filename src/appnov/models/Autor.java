@@ -15,6 +15,11 @@ public class Autor {
         this.celular = celular;
     }
 
+    public Autor(String nome, String celular) {
+        this.nome = nome;
+        this.celular = celular;
+    }
+
     public int getId() {
         return id;
     }
